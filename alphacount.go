@@ -1,11 +1,11 @@
-package piscine
+package quest5
 
-func AlphaCount(str string) int {
-	s := 0
-	for _, i := range str {
-		if (i >= 'a' && i <= 'z') || (i <= 'Z' && i >= 'A') {
-			s++
+func AlphaCount(s string) int {
+	cnt := 0
+	for _, c := range s {
+		if (c >= 'a' && c <= 'z') || (c <= 'Z' && c >= 'A') {
+			cnt++
 		}
 	}
-	return s
+	return cnt
 }
