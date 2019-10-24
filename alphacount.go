@@ -1,4 +1,4 @@
-package quest5
+package piscine
 
 func AlphaCount(s string) int {
 	cnt := 0
